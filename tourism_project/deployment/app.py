@@ -4,7 +4,7 @@ from huggingface_hub import hf_hub_download
 import joblib
 
 # Download and load the trained model
-model_path = hf_hub_download(repo_id="Debugdemon/Tourism-package-prediction/tourism-package-prediction-model", filename="tourism_package_prediction_model.joblib")
+model_path = hf_hub_download(repo_id="Debugdemon/Tourism-package-prediction", filename="tourism_package_prediction_model.joblib")
 model = joblib.load(model_path)
 
 # Streamlit UI
