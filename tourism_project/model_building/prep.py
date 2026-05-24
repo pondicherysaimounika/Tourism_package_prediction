@@ -73,7 +73,7 @@ for file_path in files:
     api.upload_file(
         path_or_fileobj=file_path,
         path_in_repo=file_path,
-        repo_id="/Debugdemon/Tourism-package-prediction/tourism-project-data",
+        repo_id="Debugdemon/Tourism-package-prediction",
         repo_type="dataset",
     )
 
